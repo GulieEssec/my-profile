@@ -1,0 +1,104 @@
+body {
+    background-color:#D9DBF1;
+    color: black;
+    font-family: 'EB Garamond', serif;}
+
+
+
+h1, h2, h3 {
+font-family: 'Merriweather', serif;}
+
+h1 {
+    color: #4a4a4a;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+h2 {
+    color: #52545a;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #545865b0;
+}
+
+a {
+	text-decoration: none;
+    font-weight: bold;
+	color: blue
+}
+
+a:hover {
+	color: purple;
+    font-family: 'Merriweather', serif;}
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p{
+    font-size: 20px
+}
+
+
+.container {
+    width: 700px;
+    margin: 10px auto;
+}
+
+@media(max-width: 960px) {
+    .container {
+    width:  700px; 
+    }
+}
+
+@media(max-width: 720px) {
+    .container {
+    width:  500px; 
+    }
+}
+
+@media(max-width: 540px) {
+    .container {
+    width:  300px; 
+    }
+}
+
+
+.card-white {
+    background: #6b9bd07a;
+    padding: 10px;
+    margin: 50px auto;
+    box-shadow: 10px 10px #5f5d5d75;
+    border-radius: 10px;
+    text-align: center;
+    text-align: center;
+}
+
+.btn-blue {
+    background-color: #D9DBF1;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.btn-blue:hover {
+    background-color: #92BCEA;
+}
+img {
+    border-radius: 40%
+    }
+
+.card-site {
+    list-style: none;
+    padding-left: 0px;
+}
+.card-site li {
+    display: inline;
+    padding: 90px;
+}
+
